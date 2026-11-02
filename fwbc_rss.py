@@ -94,7 +94,11 @@ def main():
         known = known_sizes(OUT)
         new = [r[0] for r in rows if r[0] not in known]
         with ThreadPoolExecutor(8) as pool:
-            known.update(zip(new, pool.map(lambda u: size(client, u), new)))
+            known.update(
+                (url, length)
+                for url, length in zip(new, pool.map(lambda u: size(client, u), new))
+                if length is not None
+            )
     rows = [r for r in rows if known.get(r[0])]
     build(rows, [known[r[0]] for r in rows]).rss_file(OUT, pretty=True)
     print(f"wrote {OUT}: {len(rows)} items ({len(new)} new), newest {rows[0][1]!r}", file=sys.stderr)
