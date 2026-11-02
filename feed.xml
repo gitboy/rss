@@ -1,25 +1,817 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
-    <title>Example Feed</title>
-    <link>https://gitboy.github.io/rss/</link>
-    <description>A fake example RSS feed hosted on GitHub Pages.</description>
+    <title>Faithful Word Baptist Church Sermons (unofficial)</title>
+    <link>https://www.faithfulwordbaptist.org/page5.html</link>
+    <description>Unofficial audio-only feed generated from faithfulwordbaptist.org.</description>
+    <atom:link href="https://gitboy.github.io/rss/feed.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Nov 2026 12:00:00 GMT</lastBuildDate>
-    <atom:link href="https://gitboy.github.io/rss/feed.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Mon, 02 Nov 2026 00:05:14 +0000</lastBuildDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <itunes:explicit>no</itunes:explicit>
     <item>
-      <title>First example post</title>
-      <link>https://gitboy.github.io/rss/posts/1</link>
-      <guid isPermaLink="false">example-1</guid>
-      <pubDate>Sun, 01 Nov 2026 12:00:00 GMT</pubDate>
-      <description>This is a fake entry to show the feed format.</description>
+      <title>Saul's Envy of David</title>
+      <description>Saul's Envy of David</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/102526a.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/102526a.mp3" length="123324480" type="audio/mpeg"/>
+      <pubDate>Sun, 25 Oct 2026 10:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
     </item>
     <item>
-      <title>Second example post</title>
-      <link>https://gitboy.github.io/rss/posts/2</link>
-      <guid isPermaLink="false">example-2</guid>
-      <pubDate>Sat, 31 Oct 2026 12:00:00 GMT</pubDate>
-      <description>Another fake entry.</description>
+      <title>Biblical Manhood</title>
+      <description>Biblical Manhood</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/102326p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/102326p.mp3" length="137834672" type="audio/mpeg"/>
+      <pubDate>Fri, 23 Oct 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Flee from Idolatry</title>
+      <description>Flee from Idolatry</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/102126p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/102126p.mp3" length="102482882" type="audio/mpeg"/>
+      <pubDate>Wed, 21 Oct 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>2 Kings 20</title>
+      <description>2 Kings 20</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/101826p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/101826p.mp3" length="78088547" type="audio/mpeg"/>
+      <pubDate>Sun, 18 Oct 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Third Wave Feminism</title>
+      <description>Third Wave Feminism</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/101826a.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/101826a.mp3" length="79917952" type="audio/mpeg"/>
+      <pubDate>Sun, 18 Oct 2026 10:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>A Man After God's Own Heart - Part 3</title>
+      <description>A Man After God's Own Heart - Part 3</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/101426p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/101426p.mp3" length="95148805" type="audio/mpeg"/>
+      <pubDate>Wed, 14 Oct 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>2 Kings 19</title>
+      <description>2 Kings 19</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/101126p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/101126p.mp3" length="70705089" type="audio/mpeg"/>
+      <pubDate>Sun, 11 Oct 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>I Love Black People!</title>
+      <description>I Love Black People!</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/101126a.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/101126a.mp3" length="72422901" type="audio/mpeg"/>
+      <pubDate>Sun, 11 Oct 2026 10:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Second Wave Feminism</title>
+      <description>Second Wave Feminism</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/100726p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/100726p.mp3" length="109975280" type="audio/mpeg"/>
+      <pubDate>Wed, 07 Oct 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>2 Kings 18: Hezekiah's Revival</title>
+      <description>2 Kings 18: Hezekiah's Revival</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/100426p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/100426p.mp3" length="91755185" type="audio/mpeg"/>
+      <pubDate>Sun, 04 Oct 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>A Man After God's Own Heart - Part 2</title>
+      <description>A Man After God's Own Heart - Part 2</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/100426a.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/100426a.mp3" length="81693445" type="audio/mpeg"/>
+      <pubDate>Sun, 04 Oct 2026 10:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>A Man After God's Own Heart - Part 1</title>
+      <description>A Man After God's Own Heart - Part 1</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/093026p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/093026p.mp3" length="88465782" type="audio/mpeg"/>
+      <pubDate>Wed, 30 Sep 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>2 Kings 17: Origin of the Samaritans</title>
+      <description>2 Kings 17: Origin of the Samaritans</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/092726p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/092726p.mp3" length="86018213" type="audio/mpeg"/>
+      <pubDate>Sun, 27 Sep 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Varieties of Love</title>
+      <description>Varieties of Love</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/092726a.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/092726a.mp3" length="83749804" type="audio/mpeg"/>
+      <pubDate>Sun, 27 Sep 2026 10:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Nehemiah 6: the Devices of the Haters</title>
+      <description>Nehemiah 6: the Devices of the Haters</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/092426p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/092426p.mp3" length="132584598" type="audio/mpeg"/>
+      <pubDate>Thu, 24 Sep 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>First Wave Feminism</title>
+      <description>First Wave Feminism</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/092326p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/092326p.mp3" length="106426806" type="audio/mpeg"/>
+      <pubDate>Wed, 23 Sep 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>2 Kings 16: Ruining the House of God</title>
+      <description>2 Kings 16: Ruining the House of God</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/092026p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/092026p.mp3" length="98277856" type="audio/mpeg"/>
+      <pubDate>Sun, 20 Sep 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Putting in the Work</title>
+      <description>Putting in the Work</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/092026a.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/092026a.mp3" length="86788576" type="audio/mpeg"/>
+      <pubDate>Sun, 20 Sep 2026 10:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Staying in an Abusive Marriage</title>
+      <description>Staying in an Abusive Marriage</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/091626p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/091626p.mp3" length="109346605" type="audio/mpeg"/>
+      <pubDate>Wed, 16 Sep 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>The Sons of Eli</title>
+      <description>The Sons of Eli</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/091326p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/091326p.mp3" length="85906956" type="audio/mpeg"/>
+      <pubDate>Sun, 13 Sep 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>To Everything There is a Season</title>
+      <description>To Everything There is a Season</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/091326a.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/091326a.mp3" length="97634135" type="audio/mpeg"/>
+      <pubDate>Sun, 13 Sep 2026 10:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>2 Kings 15</title>
+      <description>2 Kings 15</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/090926p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/090926p.mp3" length="83401998" type="audio/mpeg"/>
+      <pubDate>Wed, 09 Sep 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Man is Not Basically Good</title>
+      <description>Man is Not Basically Good</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/090626p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/090626p.mp3" length="158949120" type="audio/mpeg"/>
+      <pubDate>Sun, 06 Sep 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>The Devil Made Me Do It</title>
+      <description>The Devil Made Me Do It</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/090626a.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/090626a.mp3" length="79802115" type="audio/mpeg"/>
+      <pubDate>Sun, 06 Sep 2026 10:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>2 Kings 14</title>
+      <description>2 Kings 14</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/090226p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/090226p.mp3" length="87146076" type="audio/mpeg"/>
+      <pubDate>Wed, 02 Sep 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Friends Come and Go</title>
+      <description>Friends Come and Go</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/083026p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/083026p.mp3" length="96074311" type="audio/mpeg"/>
+      <pubDate>Sun, 30 Aug 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Matthew Stucky</itunes:author>
+    </item>
+    <item>
+      <title>The Spirit of Jezebel</title>
+      <description>The Spirit of Jezebel</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/083026a.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/083026a.mp3" length="119810840" type="audio/mpeg"/>
+      <pubDate>Sun, 30 Aug 2026 10:00:00 +0000</pubDate>
+      <itunes:author>Pastor Matthew Stucky</itunes:author>
+    </item>
+    <item>
+      <title>2 Kings 13</title>
+      <description>2 Kings 13</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/082626p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/082626p.mp3" length="114845616" type="audio/mpeg"/>
+      <pubDate>Wed, 26 Aug 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Nehemiah 5: Greed and Usury</title>
+      <description>Nehemiah 5: Greed and Usury</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/082326p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/082326p.mp3" length="117999720" type="audio/mpeg"/>
+      <pubDate>Sun, 23 Aug 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Finding a Virtuous Woman</title>
+      <description>Finding a Virtuous Woman</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/082326a.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/082326a.mp3" length="81679025" type="audio/mpeg"/>
+      <pubDate>Sun, 23 Aug 2026 10:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>2 Kings 12</title>
+      <description>2 Kings 12</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/081926p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/081926p.mp3" length="89900073" type="audio/mpeg"/>
+      <pubDate>Wed, 19 Aug 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Jesus Lived by Faith</title>
+      <description>Jesus Lived by Faith</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/081626p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/081626p.mp3" length="87936501" type="audio/mpeg"/>
+      <pubDate>Sun, 16 Aug 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Paul's Prayer for the Colossians</title>
+      <description>Paul's Prayer for the Colossians</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/081626a.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/081626a.mp3" length="88807946" type="audio/mpeg"/>
+      <pubDate>Sun, 16 Aug 2026 10:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>The Devil's Angels</title>
+      <description>The Devil's Angels</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/081326p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/081326p.mp3" length="109636731" type="audio/mpeg"/>
+      <pubDate>Thu, 13 Aug 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>2 Kings 11</title>
+      <description>2 Kings 11</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/081226p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/081226p.mp3" length="90732021" type="audio/mpeg"/>
+      <pubDate>Wed, 12 Aug 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Withdraw from the Disorderly</title>
+      <description>Withdraw from the Disorderly</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/080926p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/080926p.mp3" length="91015395" type="audio/mpeg"/>
+      <pubDate>Sun, 09 Aug 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Nahum 1: The Lord Reserveth Wrath for His Enemies</title>
+      <description>Nahum 1: The Lord Reserveth Wrath for His Enemies</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/080926a.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/080926a.mp3" length="75944414" type="audio/mpeg"/>
+      <pubDate>Sun, 09 Aug 2026 10:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Why Christians Hate Sodomites</title>
+      <description>Why Christians Hate Sodomites</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/080726p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/080726p.mp3" length="119446870" type="audio/mpeg"/>
+      <pubDate>Fri, 07 Aug 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>2 Kings 10</title>
+      <description>2 Kings 10</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/080526p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/080526p.mp3" length="117924183" type="audio/mpeg"/>
+      <pubDate>Wed, 05 Aug 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Whatsoever Is Right in Your Own Eyes</title>
+      <description>Whatsoever Is Right in Your Own Eyes</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/080226p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/080226p.mp3" length="100682040" type="audio/mpeg"/>
+      <pubDate>Sun, 02 Aug 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>The Severity of Charity</title>
+      <description>The Severity of Charity</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/080226a.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/080226a.mp3" length="116876738" type="audio/mpeg"/>
+      <pubDate>Sun, 02 Aug 2026 10:00:00 +0000</pubDate>
+      <itunes:author>Bro. Chris Segura</itunes:author>
+    </item>
+    <item>
+      <title>Marrying Someone Forbidden by Parents</title>
+      <description>Marrying Someone Forbidden by Parents</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/073126p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/073126p.mp3" length="63929832" type="audio/mpeg"/>
+      <pubDate>Fri, 31 Jul 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>2 Kings 9</title>
+      <description>2 Kings 9</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/072926p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/072926p.mp3" length="141150720" type="audio/mpeg"/>
+      <pubDate>Wed, 29 Jul 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>John 8: The Faithful and True Witness</title>
+      <description>John 8: The Faithful and True Witness</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/072626p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/072626p.mp3" length="73879886" type="audio/mpeg"/>
+      <pubDate>Sun, 26 Jul 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>John 8: The Adulterous Woman</title>
+      <description>John 8: The Adulterous Woman</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/072626a.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/072626a.mp3" length="50380590" type="audio/mpeg"/>
+      <pubDate>Sun, 26 Jul 2026 10:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Blasphemy Against God</title>
+      <description>Blasphemy Against God</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/072426p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/072426p.mp3" length="61155106" type="audio/mpeg"/>
+      <pubDate>Fri, 24 Jul 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Railing Defined</title>
+      <description>Railing Defined</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/072326p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/072326p.mp3" length="74547588" type="audio/mpeg"/>
+      <pubDate>Thu, 23 Jul 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Being Deceived</title>
+      <description>Being Deceived</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/072226p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/072226p.mp3" length="93585844" type="audio/mpeg"/>
+      <pubDate>Wed, 22 Jul 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Bro. Chris Segura</itunes:author>
+    </item>
+    <item>
+      <title>John 7: Wrong Preconceived Ideas</title>
+      <description>John 7: Wrong Preconceived Ideas</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/071926p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/071926p.mp3" length="125629440" type="audio/mpeg"/>
+      <pubDate>Sun, 19 Jul 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>John 7: Jesus' Rejection by Family</title>
+      <description>John 7: Jesus' Rejection by Family</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/071926a.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/071926a.mp3" length="155034240" type="audio/mpeg"/>
+      <pubDate>Sun, 19 Jul 2026 10:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>The Difficult Things God Rewards</title>
+      <description>The Difficult Things God Rewards</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/071526p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/071526p.mp3" length="78360009" type="audio/mpeg"/>
+      <pubDate>Wed, 15 Jul 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Bro. Chris Segura</itunes:author>
+    </item>
+    <item>
+      <title>First Do No Harm</title>
+      <description>First Do No Harm</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/071226p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/071226p.mp3" length="145135680" type="audio/mpeg"/>
+      <pubDate>Sun, 12 Jul 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Cleansing the Outside Also</title>
+      <description>Cleansing the Outside Also</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/071226a.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/071226a.mp3" length="150179520" type="audio/mpeg"/>
+      <pubDate>Sun, 12 Jul 2026 10:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>2 Kings 8</title>
+      <description>2 Kings 8</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/070826p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/070826p.mp3" length="153655680" type="audio/mpeg"/>
+      <pubDate>Wed, 08 Jul 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Why I Don't Want to Continue Pastoring</title>
+      <description>Why I Don't Want to Continue Pastoring</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/070526p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/070526p.mp3" length="142296960" type="audio/mpeg"/>
+      <pubDate>Sun, 05 Jul 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>The Rapture is the Second Coming</title>
+      <description>The Rapture is the Second Coming</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/070526a.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/070526a.mp3" length="146942400" type="audio/mpeg"/>
+      <pubDate>Sun, 05 Jul 2026 10:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>2 Kings 7</title>
+      <description>2 Kings 7</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/070126p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/070126p.mp3" length="153596160" type="audio/mpeg"/>
+      <pubDate>Wed, 01 Jul 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Fruit of the Spirit: Faith</title>
+      <description>Fruit of the Spirit: Faith</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/062826p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/062826p.mp3" length="146797440" type="audio/mpeg"/>
+      <pubDate>Sun, 28 Jun 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Jews and Judaizers</title>
+      <description>Jews and Judaizers</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/062826a.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/062826a.mp3" length="89108248" type="audio/mpeg"/>
+      <pubDate>Sun, 28 Jun 2026 10:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>2 Kings 6</title>
+      <description>2 Kings 6</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/062426p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/062426p.mp3" length="92725684" type="audio/mpeg"/>
+      <pubDate>Wed, 24 Jun 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>The F.L.D.S. (Fundamentalist Mormons)</title>
+      <description>The F.L.D.S. (Fundamentalist Mormons)</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/062126p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/062126p.mp3" length="94993322" type="audio/mpeg"/>
+      <pubDate>Sun, 21 Jun 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Rebellion is Satanic</title>
+      <description>Rebellion is Satanic</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/062126a.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/062126a.mp3" length="83803719" type="audio/mpeg"/>
+      <pubDate>Sun, 21 Jun 2026 10:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>2 Kings 5</title>
+      <description>2 Kings 5</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/061726p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/061726p.mp3" length="89842393" type="audio/mpeg"/>
+      <pubDate>Wed, 17 Jun 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>The Wine of God's Wrath</title>
+      <description>The Wine of God's Wrath</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/061426p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/061426p.mp3" length="85164803" type="audio/mpeg"/>
+      <pubDate>Sun, 14 Jun 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>LGBBQ</title>
+      <description>LGBBQ</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/061426a.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/061426a.mp3" length="91976493" type="audio/mpeg"/>
+      <pubDate>Sun, 14 Jun 2026 10:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>2 Kings 4</title>
+      <description>2 Kings 4</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/061026p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/061026p.mp3" length="60754599" type="audio/mpeg"/>
+      <pubDate>Wed, 10 Jun 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Christians Will Face the Tribulation</title>
+      <description>Christians Will Face the Tribulation</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/060726p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/060726p.mp3" length="108903213" type="audio/mpeg"/>
+      <pubDate>Sun, 07 Jun 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Jesus Cannot Return at Any Moment</title>
+      <description>Jesus Cannot Return at Any Moment</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/060726a.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/060726a.mp3" length="88745877" type="audio/mpeg"/>
+      <pubDate>Sun, 07 Jun 2026 10:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>2 Kings 3</title>
+      <description>2 Kings 3</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/060326p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/060326p.mp3" length="96615839" type="audio/mpeg"/>
+      <pubDate>Wed, 03 Jun 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Fools and Their Folly: Failure to Learn</title>
+      <description>Fools and Their Folly: Failure to Learn</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/053126p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/053126p.mp3" length="91005356" type="audio/mpeg"/>
+      <pubDate>Sun, 31 May 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Fools and Their Folly: Saying Too Much</title>
+      <description>Fools and Their Folly: Saying Too Much</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/053126a.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/053126a.mp3" length="84980483" type="audio/mpeg"/>
+      <pubDate>Sun, 31 May 2026 10:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>2 Kings 2</title>
+      <description>2 Kings 2</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/052726p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/052726p.mp3" length="86352852" type="audio/mpeg"/>
+      <pubDate>Wed, 27 May 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Life is Impossible to Predict</title>
+      <description>Life is Impossible to Predict</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/052426p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/052426p.mp3" length="77096728" type="audio/mpeg"/>
+      <pubDate>Sun, 24 May 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Overmuch Sorrow</title>
+      <description>Overmuch Sorrow</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/052426a.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/052426a.mp3" length="86671964" type="audio/mpeg"/>
+      <pubDate>Sun, 24 May 2026 10:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Synagogue of Satan</title>
+      <description>Synagogue of Satan</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/052226p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/052226p.mp3" length="61840778" type="audio/mpeg"/>
+      <pubDate>Fri, 22 May 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Romans 11: Hath God Cast Away His People?</title>
+      <description>Romans 11: Hath God Cast Away His People?</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/052126p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/052126p.mp3" length="76761157" type="audio/mpeg"/>
+      <pubDate>Thu, 21 May 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>2 Kings 1</title>
+      <description>2 Kings 1</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/052026p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/052026p.mp3" length="95756933" type="audio/mpeg"/>
+      <pubDate>Wed, 20 May 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>The Elect Lady and Her Children</title>
+      <description>The Elect Lady and Her Children</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/051726p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/051726p.mp3" length="68148762" type="audio/mpeg"/>
+      <pubDate>Sun, 17 May 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Jesus Coming on a White Horse</title>
+      <description>Jesus Coming on a White Horse</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/051726a.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/051726a.mp3" length="79590063" type="audio/mpeg"/>
+      <pubDate>Sun, 17 May 2026 10:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Laughing Your Way to Hell</title>
+      <description>Laughing Your Way to Hell</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/051626p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/051626p.mp3" length="59050410" type="audio/mpeg"/>
+      <pubDate>Sat, 16 May 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Psalm 106</title>
+      <description>Psalm 106</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/051326p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/051326p.mp3" length="86311474" type="audio/mpeg"/>
+      <pubDate>Wed, 13 May 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>John 6: Jesus is the Word</title>
+      <description>John 6: Jesus is the Word</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/051026p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/051026p.mp3" length="99490354" type="audio/mpeg"/>
+      <pubDate>Sun, 10 May 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Attributes of a Mother</title>
+      <description>Attributes of a Mother</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/051026a.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/051026a.mp3" length="80148039" type="audio/mpeg"/>
+      <pubDate>Sun, 10 May 2026 10:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Psalm 105</title>
+      <description>Psalm 105</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/050626p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/050626p.mp3" length="88259373" type="audio/mpeg"/>
+      <pubDate>Wed, 06 May 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Honoring Your Parents in Life</title>
+      <description>Honoring Your Parents in Life</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/050326p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/050326p.mp3" length="92456728" type="audio/mpeg"/>
+      <pubDate>Sun, 03 May 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Charismaniacs</title>
+      <description>Charismaniacs</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/050326a.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/050326a.mp3" length="82204398" type="audio/mpeg"/>
+      <pubDate>Sun, 03 May 2026 10:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Psalm 104: God's Marvellous Creation</title>
+      <description>Psalm 104: God's Marvellous Creation</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/042926p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/042926p.mp3" length="87645599" type="audio/mpeg"/>
+      <pubDate>Wed, 29 Apr 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Nehemiah 4: Building and Battling</title>
+      <description>Nehemiah 4: Building and Battling</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/042626p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/042626p.mp3" length="90969629" type="audio/mpeg"/>
+      <pubDate>Sun, 26 Apr 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Nehemiah 3: the Ten Gates</title>
+      <description>Nehemiah 3: the Ten Gates</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/042626a.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/042626a.mp3" length="86953459" type="audio/mpeg"/>
+      <pubDate>Sun, 26 Apr 2026 10:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>How Not to be a Casualty (Anaheim, CA)</title>
+      <description>How Not to be a Casualty (Anaheim, CA)</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/042326p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/042326p.mp3" length="70104005" type="audio/mpeg"/>
+      <pubDate>Thu, 23 Apr 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Psalm 103</title>
+      <description>Psalm 103</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/042226p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/042226p.mp3" length="80675294" type="audio/mpeg"/>
+      <pubDate>Wed, 22 Apr 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Nehemiah 2: Leadership Lessons</title>
+      <description>Nehemiah 2: Leadership Lessons</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/041926p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/041926p.mp3" length="98442739" type="audio/mpeg"/>
+      <pubDate>Sun, 19 Apr 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Nehemiah 1: Broken Down Walls</title>
+      <description>Nehemiah 1: Broken Down Walls</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/041926a.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/041926a.mp3" length="61022017" type="audio/mpeg"/>
+      <pubDate>Sun, 19 Apr 2026 10:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>The Ten Commandments (Seattle, WA)</title>
+      <description>The Ten Commandments (Seattle, WA)</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/041726p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/041726p.mp3" length="75056741" type="audio/mpeg"/>
+      <pubDate>Fri, 17 Apr 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Psalm 102</title>
+      <description>Psalm 102</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/041526p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/041526p.mp3" length="86801113" type="audio/mpeg"/>
+      <pubDate>Wed, 15 Apr 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Space Exploration in Light of the Bible</title>
+      <description>Space Exploration in Light of the Bible</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/041226p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/041226p.mp3" length="92896212" type="audio/mpeg"/>
+      <pubDate>Sun, 12 Apr 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>The Lord's Supper</title>
+      <description>The Lord's Supper</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/041226a.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/041226a.mp3" length="79052777" type="audio/mpeg"/>
+      <pubDate>Sun, 12 Apr 2026 10:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Psalm 101</title>
+      <description>Psalm 101</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/040826p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/040826p.mp3" length="88681929" type="audio/mpeg"/>
+      <pubDate>Wed, 08 Apr 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Sunk Costs</title>
+      <description>Sunk Costs</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/040526p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/040526p.mp3" length="66457577" type="audio/mpeg"/>
+      <pubDate>Sun, 05 Apr 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Your Life is Hid with Christ</title>
+      <description>Your Life is Hid with Christ</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/040526a.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/040526a.mp3" length="94698034" type="audio/mpeg"/>
+      <pubDate>Sun, 05 Apr 2026 10:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
     </item>
   </channel>
 </rss>
