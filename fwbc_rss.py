@@ -2,7 +2,8 @@
 import re
 import sys
 from concurrent.futures import ThreadPoolExecutor
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
+from xml.etree import ElementTree
 
 import httpx
 from bs4 import BeautifulSoup
@@ -11,7 +12,8 @@ from feedgen.feed import FeedGenerator
 SOURCE = "https://www.faithfulwordbaptist.org/page5.html"
 FEED_URL = "https://gitboy.github.io/rss/feed.xml"
 OUT = "feed.xml"
-MAX_ITEMS = 100  # newest N sermons; the archive goes back to 2006
+COVER_URL = "https://gitboy.github.io/rss/cover.png"  # 1400x1400, committed next to feed.xml
+YEARS = 3  # how far back the feed reaches; the site archive goes back to 2006
 
 DATE = re.compile(r"^(\d\d)/(\d\d)/(\d\d), .*?(AM|PM)?$")
 
@@ -40,10 +42,22 @@ def parse(html):
         )
 
 
+def known_sizes(path):
+    """url -> byte length from the previously published feed, so only new sermons need a HEAD request."""
+    try:
+        root = ElementTree.parse(path).getroot()
+    except (FileNotFoundError, ElementTree.ParseError):
+        return {}
+    return {e.get("url"): int(e.get("length")) for e in root.iter("enclosure")}
+
+
 def size(client, url):
-    r = client.head(url, follow_redirects=True)
-    r.raise_for_status()
-    return int(r.headers["content-length"])
+    try:
+        r = client.head(url, follow_redirects=True)
+        r.raise_for_status()
+        return int(r.headers["content-length"])
+    except (httpx.HTTPError, KeyError, ValueError) as e:
+        print(f"skip {url}: {e!r}", file=sys.stderr)  # retried on the next run
 
 
 def build(rows, sizes):
@@ -54,6 +68,8 @@ def build(rows, sizes):
     fg.link(href=SOURCE, rel="alternate")
     fg.description("Unofficial audio-only feed generated from faithfulwordbaptist.org.")
     fg.language("en")
+    fg.logo(COVER_URL)
+    fg.podcast.itunes_image(COVER_URL)
     fg.podcast.itunes_category("Religion & Spirituality", "Christianity")
     fg.podcast.itunes_explicit("no")
     for (url, title, speaker, pub), length in zip(rows, sizes):
@@ -73,11 +89,15 @@ def main():
     with httpx.Client(timeout=60, headers={"User-Agent": "fwbc-rss"}) as client:
         html = client.get(SOURCE, follow_redirects=True)
         html.raise_for_status()
-        rows = sorted(parse(html.text), key=lambda r: r[3], reverse=True)[:MAX_ITEMS]
+        cutoff = datetime.now(timezone.utc) - timedelta(days=365 * YEARS)
+        rows = sorted((r for r in parse(html.text) if r[3] >= cutoff), key=lambda r: r[3], reverse=True)
+        known = known_sizes(OUT)
+        new = [r[0] for r in rows if r[0] not in known]
         with ThreadPoolExecutor(8) as pool:
-            sizes = list(pool.map(lambda r: size(client, r[0]), rows))
-    build(rows, sizes).rss_file(OUT, pretty=True)
-    print(f"wrote {OUT}: {len(rows)} items, newest {rows[0][1]!r}", file=sys.stderr)
+            known.update(zip(new, pool.map(lambda u: size(client, u), new)))
+    rows = [r for r in rows if known.get(r[0])]
+    build(rows, [known[r[0]] for r in rows]).rss_file(OUT, pretty=True)
+    print(f"wrote {OUT}: {len(rows)} items ({len(new)} new), newest {rows[0][1]!r}", file=sys.stderr)
 
 
 if __name__ == "__main__":
