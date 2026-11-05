@@ -13,12 +13,44 @@
       <link>https://www.faithfulwordbaptist.org/page5.html</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 22:29:58 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 03:56:28 +0000</lastBuildDate>
     <itunes:category text="Religion &amp; Spirituality">
       <itunes:category text="Christianity"/>
     </itunes:category>
     <itunes:image href="https://gitboy.github.io/rss/cover.png"/>
     <itunes:explicit>no</itunes:explicit>
+    <item>
+      <title>2 Kings 22: Josiah</title>
+      <description>2 Kings 22: Josiah</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/110126p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/110126p.mp3" length="114929280" type="audio/mpeg"/>
+      <pubDate>Sun, 01 Nov 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Soul-winning Tips from Genesis 24</title>
+      <description>Soul-winning Tips from Genesis 24</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/110126a.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/110126a.mp3" length="134989440" type="audio/mpeg"/>
+      <pubDate>Sun, 01 Nov 2026 10:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>Is Saul Also Among the Prophets?</title>
+      <description>Is Saul Also Among the Prophets?</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/102826p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/102826p.mp3" length="95738127" type="audio/mpeg"/>
+      <pubDate>Wed, 28 Oct 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
+    <item>
+      <title>2 Kings 21: Manasseh</title>
+      <description>2 Kings 21: Manasseh</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/102526p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/102526p.mp3" length="78405778" type="audio/mpeg"/>
+      <pubDate>Sun, 25 Oct 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
     <item>
       <title>Saul's Envy of David</title>
       <description>Saul's Envy of David</description>
@@ -44,8 +76,8 @@
       <itunes:author>Pastor Anderson</itunes:author>
     </item>
     <item>
-      <title>2 Kings 20</title>
-      <description>2 Kings 20</description>
+      <title>2 Kings 20: Hezekiah's Last Days</title>
+      <description>2 Kings 20: Hezekiah's Last Days</description>
       <guid isPermaLink="false">https://www.faithfulwordbaptist.org/101826p.mp3</guid>
       <enclosure url="https://www.faithfulwordbaptist.org/101826p.mp3" length="78088547" type="audio/mpeg"/>
       <pubDate>Sun, 18 Oct 2026 18:00:00 +0000</pubDate>
@@ -4009,22 +4041,6 @@
       <guid isPermaLink="false">https://www.faithfulwordbaptist.org/110823p.mp3</guid>
       <enclosure url="https://www.faithfulwordbaptist.org/110823p.mp3" length="53833470" type="audio/mpeg"/>
       <pubDate>Wed, 08 Nov 2023 18:00:00 +0000</pubDate>
-      <itunes:author>Pastor Anderson</itunes:author>
-    </item>
-    <item>
-      <title>Participating in Church</title>
-      <description>Participating in Church</description>
-      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/110523p.mp3</guid>
-      <enclosure url="https://www.faithfulwordbaptist.org/110523p.mp3" length="54795147" type="audio/mpeg"/>
-      <pubDate>Sun, 05 Nov 2023 18:00:00 +0000</pubDate>
-      <itunes:author>Pastor Anderson</itunes:author>
-    </item>
-    <item>
-      <title>Corporal Punishment</title>
-      <description>Corporal Punishment</description>
-      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/110523a.mp3</guid>
-      <enclosure url="https://www.faithfulwordbaptist.org/110523a.mp3" length="62416858" type="audio/mpeg"/>
-      <pubDate>Sun, 05 Nov 2023 10:00:00 +0000</pubDate>
       <itunes:author>Pastor Anderson</itunes:author>
     </item>
   </channel>
