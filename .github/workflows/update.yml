@@ -1,7 +1,7 @@
 name: update-feed
 on:
   schedule:
-    - cron: "0 14 * * 1" # Mondays 14:00 UTC
+    - cron: "0 14 * * 1,3" # Mondays and Wednesdays 14:00 UTC
   workflow_dispatch:
 permissions:
   contents: write
