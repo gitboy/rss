@@ -13,12 +13,20 @@
       <link>https://www.faithfulwordbaptist.org/page5.html</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Nov 2026 03:56:28 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 23:12:10 +0000</lastBuildDate>
     <itunes:category text="Religion &amp; Spirituality">
       <itunes:category text="Christianity"/>
     </itunes:category>
     <itunes:image href="https://gitboy.github.io/rss/cover.png"/>
     <itunes:explicit>no</itunes:explicit>
+    <item>
+      <title>Spoiled By Philosophy</title>
+      <description>Spoiled By Philosophy</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/110426p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/110426p.mp3" length="103802588" type="audio/mpeg"/>
+      <pubDate>Wed, 04 Nov 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
     <item>
       <title>2 Kings 22: Josiah</title>
       <description>2 Kings 22: Josiah</description>
@@ -4002,46 +4010,6 @@
       <enclosure url="https://www.faithfulwordbaptist.org/111223a.mp3" length="69555722" type="audio/mpeg"/>
       <pubDate>Sun, 12 Nov 2023 10:00:00 +0000</pubDate>
       <itunes:author>Bro. Raymond Cooper</itunes:author>
-    </item>
-    <item>
-      <title>Soulwinning Made Easy - the Bahamas</title>
-      <description>Soulwinning Made Easy - the Bahamas</description>
-      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/111023p.mp3</guid>
-      <enclosure url="https://www.faithfulwordbaptist.org/111023p.mp3" length="82431831" type="audio/mpeg"/>
-      <pubDate>Fri, 10 Nov 2023 18:00:00 +0000</pubDate>
-      <itunes:author>Pastor Jonathan Shelley</itunes:author>
-    </item>
-    <item>
-      <title>The Salvation We Saw in Yakima</title>
-      <description>The Salvation We Saw in Yakima</description>
-      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/111023a.mp3</guid>
-      <enclosure url="https://www.faithfulwordbaptist.org/111023a.mp3" length="63411389" type="audio/mpeg"/>
-      <pubDate>Fri, 10 Nov 2023 10:00:00 +0000</pubDate>
-      <itunes:author>Pastor Aaron Thompson</itunes:author>
-    </item>
-    <item>
-      <title>Going into all the World - Nagaland, India</title>
-      <description>Going into all the World - Nagaland, India</description>
-      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/110923p.mp3</guid>
-      <enclosure url="https://www.faithfulwordbaptist.org/110923p.mp3" length="71249820" type="audio/mpeg"/>
-      <pubDate>Thu, 09 Nov 2023 18:00:00 +0000</pubDate>
-      <itunes:author>Bro. Daniel Reiter</itunes:author>
-    </item>
-    <item>
-      <title>Islam: the Religion of the Lost</title>
-      <description>Islam: the Religion of the Lost</description>
-      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/110923a.mp3</guid>
-      <enclosure url="https://www.faithfulwordbaptist.org/110923a.mp3" length="59133047" type="audio/mpeg"/>
-      <pubDate>Thu, 09 Nov 2023 10:00:00 +0000</pubDate>
-      <itunes:author>Bro. Chris Segura</itunes:author>
-    </item>
-    <item>
-      <title>Hezekiah's Passover (Common Sense Missions)</title>
-      <description>Hezekiah's Passover (Common Sense Missions)</description>
-      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/110823p.mp3</guid>
-      <enclosure url="https://www.faithfulwordbaptist.org/110823p.mp3" length="53833470" type="audio/mpeg"/>
-      <pubDate>Wed, 08 Nov 2023 18:00:00 +0000</pubDate>
-      <itunes:author>Pastor Anderson</itunes:author>
     </item>
   </channel>
 </rss>
