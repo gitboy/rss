@@ -18,8 +18,3 @@ def test_parse():
         ("https://www.faithfulwordbaptist.org/102326p.mp3", "Biblical Manhood", "Pastor Anderson"),
     ]
     assert rows[0][3].hour == 10 and rows[1][3].hour == 18
-
-
-if __name__ == "__main__":
-    test_parse()
-    print("ok")

@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: astral-sh/setup-uv@v5
-      - run: PYTHONPATH=src uv run python tests/test_fwbc_rss.py
+      - run: PYTHONPATH=src uv run pytest
       - run: PYTHONPATH=src uv run python src/fwbc_rss.py
       - run: |
           git config user.name github-actions
