@@ -13,12 +13,20 @@
       <link>https://www.faithfulwordbaptist.org/page5.html</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Nov 2026 23:01:59 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 22:37:22 +0000</lastBuildDate>
     <itunes:category text="Religion &amp; Spirituality">
       <itunes:category text="Christianity"/>
     </itunes:category>
     <itunes:image href="https://gitboy.github.io/rss/cover.png"/>
     <itunes:explicit>no</itunes:explicit>
+    <item>
+      <title>How to Ruin Thanksgiving</title>
+      <description>How to Ruin Thanksgiving</description>
+      <guid isPermaLink="false">https://www.faithfulwordbaptist.org/112526p.mp3</guid>
+      <enclosure url="https://www.faithfulwordbaptist.org/112526p.mp3" length="118350720" type="audio/mpeg"/>
+      <pubDate>Wed, 25 Nov 2026 18:00:00 +0000</pubDate>
+      <itunes:author>Pastor Anderson</itunes:author>
+    </item>
     <item>
       <title>2 Kings 23: How to Have Revival</title>
       <description>2 Kings 23: How to Have Revival</description>
@@ -33,7 +41,7 @@
       <guid isPermaLink="false">https://www.faithfulwordbaptist.org/112226a.mp3</guid>
       <enclosure url="https://www.faithfulwordbaptist.org/112226a.mp3" length="137585280" type="audio/mpeg"/>
       <pubDate>Sun, 22 Nov 2026 10:00:00 +0000</pubDate>
-      <itunes:author>Pastor Steven Anderson</itunes:author>
+      <itunes:author>Pastor Anderson</itunes:author>
     </item>
     <item>
       <title>Social Trinity vs. Antisocial Trinity</title>
